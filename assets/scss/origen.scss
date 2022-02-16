@@ -1,0 +1,38 @@
+//IMPORTO BOOTSTRAP
+
+@import "scss/bootstrap.scss";
+
+/* Variables */
+
+$negro: rgba(4, 37, 0, 1);
+$verde: rgba(60, 161, 70, 1);
+$verdeoscuro: darkgreen;
+
+/* SCSS */
+
+header {
+  background: linear-gradient(180deg, $verde 0%, $negro 100%);
+}
+
+footer div {
+  background: linear-gradient(180deg, $verde 0%, $negro 100%);
+}
+
+h1 {
+  background: $verdeoscuro;
+}
+
+a {
+  font-size: 20px;
+  &:hover {
+    background: lightgreen;
+  }
+}
+
+img {
+  border: 3px solid black;
+  border-radius: 25%;
+  &:hover {
+    border: 5px solid gold;
+  }
+}
