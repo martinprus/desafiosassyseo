@@ -7810,23 +7810,36 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /* Variables */
-/* SCSS */
-header {
-  background: linear-gradient(180deg, #3ca146 0%, #042500 100%); }
+/* Uso de mixing desafio */
+.letraTitulo {
+  font-size: 2.5rem;
+  font-weight: 800; }
 
-footer div {
-  background: linear-gradient(180deg, #3ca146 0%, #042500 100%); }
+.letraSpan {
+  font-size: 1rem;
+  font-weight: 300; }
 
-h1, .h1 {
-  background: darkgreen; }
+/* Uso de extend desafio */
+.tituloMain1, .tituloMain2, .tituloMain3 {
+  color: #a512d1; }
+  .tituloMain1 span, .tituloMain2 span, .tituloMain3 span {
+    background-color: antiquewhite;
+    font-size: medium; }
+    .tituloMain1 span:hover, .tituloMain2 span:hover, .tituloMain3 span:hover {
+      text-decoration: underline; }
 
-a {
-  font-size: 20px; }
-  a:hover {
-    background: lightgreen; }
+.tituloMain2 {
+  color: #cf5707; }
 
-img {
-  border: 3px solid black;
-  border-radius: 25%; }
-  img:hover {
-    border: 5px solid gold; }
+.tituloMain3 {
+  color: #047c8b; }
+
+/* Uso de maps desafio */
+.iconoFacebook {
+  color: blue; }
+
+.iconoTwitter {
+  color: white; }
+
+.iconoInstagram {
+  color: #c52020; }
